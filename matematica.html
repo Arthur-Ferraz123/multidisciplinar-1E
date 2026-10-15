@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvo · Parte 3 · Matemática/Física/Geografia</title>
+  <meta name="description" content="Fat Man, terremoto das Ilhas Rat e vulcão Unzen: três fenômenos comparados pela energia liberada.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css_js_matematica/style.css">
+</head>
+<body>
+
+<!-- ============================ NAVBAR ============================ -->
+<header class="navbar" id="header">
+  <div class="container nav-inner">
+    <a href="#topo" class="logo" aria-label="Alvo — início">
+      <span class="logo-mark"><span></span></span>
+      <span class="logo-text">Alvo</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">História</a>
+      <a href="#nagasaki">Biologia/Química</a>
+      <a href="#fatman" class="active">Geografia/Matemática/Física</a>
+      <a href="#comparacao">Português/ Inglês</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero-bomb" aria-hidden="true">
+    <img src="img/bomba.png" alt="">
+  </div>
+
+  <div class="container hero-content">
+    <h1 class="hero-title">
+      A ENERGIA QUE<br>
+      MUDA O MUNDO.<br>
+      <span class="accent">EM OUTRA ESCALA.</span>
+    </h1>
+    <p class="hero-sub">Uma bomba, um terremoto e um vulcão.<br>Será que a humanidade conseguiu se equiparar com a natureza</p>
+
+    <div class="hero-cards">
+      <a href="#fatman" class="hero-card" style="--c: var(--yellow)">
+        <svg viewBox="0 0 24 24" class="hc-icon"><circle cx="12" cy="12" r="2"/><path d="M12 4a8 8 0 0 1 7 4M5 8a8 8 0 0 1 7-4M12 20a8 8 0 0 1-7-4M19 16a8 8 0 0 1-7 4"/></svg>
+        <strong>Fat man</strong>
+        <small>A força criada pelo homem</small>
+        <span class="hc-arrow">↗</span>
+      </a>
+      <a href="#ilhas-rat" class="hero-card" style="--c: var(--orange)">
+        <svg viewBox="0 0 24 24" class="hc-icon"><path d="M2 12h4l2-6 4 12 3-9 2 3h5"/></svg>
+        <strong>Ilhas Rat, 1965</strong>
+        <small>A força que vem da Terra</small>
+        <span class="hc-arrow">↗</span>
+      </a>
+      <a href="#unzen" class="hero-card" style="--c: var(--red)">
+        <svg viewBox="0 0 24 24" class="hc-icon"><path d="M3 20l6-11 2 3 2-4 8 12z"/></svg>
+        <strong>Vulcão Unzen</strong>
+        <small>O resultado de anos de pressão liberados</small>
+        <span class="hc-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FAT MAN (FÍSICA) ============================ -->
+<section class="section fatman" id="fatman">
+  <div class="container">
+    <div class="fm-top">
+      <div class="fm-intro reveal">
+        <div class="kicker">Física <span></span></div>
+        <h2 class="fm-title">A bomba que<br>escolhemos analisar:<br><em>Fat Man</em></h2>
+        <p class="fm-lead">Enquanto a Little Boy era uma arma de urânio com sistema de inserção, a Fat Man usava plutônio e um sistema de implosão. Mais complexa, mais potente e muito mais precisa.</p>
+        <p class="fm-lead small">Lançada sobre Nagasaki em <strong>9 de agosto de 1945</strong>, três dias depois da Little Boy em Hiroshima.</p>
+      </div>
+
+      <aside class="fm-data reveal">
+        <h3 class="data-title">Dados principais</h3>
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M6 8h12l2 13H4z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+            <div><span>Peso total</span><strong>4.900 kg</strong></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M3 12h18M3 8v8M21 8v8M7 9l-3 3 3 3M17 9l3 3-3 3"/></svg>
+            <div><span>Comprimento</span><strong>3,35 m</strong></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5 19L19 5"/></svg>
+            <div><span>Diâmetro</span><strong>1,52 m</strong></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M12 2l2 6 6-2-4 5 5 3-6 1 1 6-4-4-4 4 1-6-6-1 5-3-4-5 6 2z"/></svg>
+            <div><span>Força explosiva</span><strong>21.000 toneladas de TNT</strong></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+            <div><span>Mais potente que a Little Boy</span><strong>1,4x</strong></div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="fm-how">
+      <div class="fm-how-text">
+        <h3>Como funcionava?</h3>
+        <p>A Fat Man era um verdadeiro quebra-cabeça de engenharia. Cada camada e componente tinha um papel essencial.</p>
+      </div>
+      <ol class="stepper" id="fmStepper">
+        <li><button data-step="0" class="active"><b>1</b><span>Visão geral<br>da bomba</span></button></li>
+        <li><button data-step="1"><b>2</b><span>O núcleo<br>(Christy pit)</span></button></li>
+        <li><button data-step="2"><b>3</b><span>Os explosivos<br>de alta potência</span></button></li>
+        <li><button data-step="3"><b>4</b><span>O Urchin<br>(iniciador)</span></button></li>
+        <li><button data-step="4"><b>5</b><span>O Tamper<br>de urânio-238</span></button></li>
+      </ol>
+    </div>
+
+    <div class="fm-carousel">
+      <button class="car-btn prev" id="fmPrev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+
+      <div class="fm-track" id="fmTrack">
+        <!-- 1. Visão geral -->
+        <article class="fm-card overview active" data-card="0">
+          <h4><span>1.</span> Visão geral da bomba</h4>
+          <div class="overview-body">
+            <div class="cutaway">
+              <div class="dim dim-v"><span>1,52 m<small>(diâmetro)</small></span></div>
+              <svg viewBox="0 0 640 420" aria-label="Corte da bomba Fat Man mostrando as camadas internas">
+                <use href="#fmBombShape"/>
+                <g transform="translate(280 210)">
+                  <circle r="150" fill="#1a1608" stroke="#3a3010" stroke-width="4"/>
+                  <circle r="128" fill="none" stroke="#6b7078" stroke-width="10"/>
+                  <g class="lens-ring">
+                    <circle r="104" fill="none" stroke="#e4b51c" stroke-width="34" stroke-dasharray="22 5"/>
+                  </g>
+                  <circle r="78" fill="#d0661a"/>
+                  <circle r="62" fill="#8a8f96"/>
+                  <rect x="-38" y="-38" width="76" height="76" fill="#2e6fa0" stroke="#e4b51c" stroke-width="5"/>
+                  <circle r="16" fill="#c9cdd2" class="core-glow"/>
+                </g>
+              </svg>
+              <div class="dim dim-h"><span><b>3,35 m</b> (comprimento)</span></div>
+            </div>
+            <div class="overview-weight">
+              <svg viewBox="0 0 24 24"><path d="M6 8h12l2 13H4z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+              <span>Peso total</span>
+              <strong>4.900 kg</strong>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Núcleo -->
+        <article class="fm-card" data-card="1">
+          <h4><span>2.</span> O núcleo <small>(Christy pit)</small></h4>
+          <svg viewBox="0 0 200 160" class="comp-img">
+            <defs>
+              <radialGradient id="pitG" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#f4f6f8"/><stop offset=".5" stop-color="#8e949b"/><stop offset="1" stop-color="#2b2f34"/></radialGradient>
+              <radialGradient id="pitIn" cx="45%" cy="40%" r="60%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#5d636a"/></radialGradient>
+            </defs>
+            <circle cx="100" cy="80" r="68" fill="url(#pitG)"/>
+            <circle cx="100" cy="80" r="30" fill="#2a2d31"/>
+            <circle cx="100" cy="80" r="22" fill="url(#pitIn)"/>
+          </svg>
+          <div class="comp-info">
+            <svg viewBox="0 0 24 24"><path d="M6 8h12l2 13H4z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+            <div><b>Plutônio-239</b><strong>6,2 kg</strong></div>
+          </div>
+          <p>Estabilizado em fase delta com adição de gálio.</p>
+        </article>
+
+        <!-- 3. Explosivos -->
+        <article class="fm-card" data-card="2">
+          <h4><span>3.</span> Os explosivos de alta potência</h4>
+          <svg viewBox="0 0 200 160" class="comp-img">
+            <defs>
+              <radialGradient id="expG" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#9aa0a6"/><stop offset="1" stop-color="#2b2f34"/></radialGradient>
+            </defs>
+            <circle cx="100" cy="80" r="70" fill="#2a2d31"/>
+            <g id="lensBlocks" transform="translate(100 80)"></g>
+            <circle cx="100" cy="80" r="26" fill="url(#expG)"/>
+          </svg>
+          <div class="comp-info">
+            <svg viewBox="0 0 24 24"><path d="M4 8l8-4 8 4v9l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v9"/></svg>
+            <div><small>Explosivos</small><strong>≈ 2.400 kg</strong></div>
+          </div>
+          <p>Dispostos de forma esférica. Quando detonados, geram uma onda de choque convergente e simétrica.</p>
+        </article>
+
+        <!-- 4. Urchin -->
+        <article class="fm-card" data-card="3">
+          <h4><span>4.</span> O Urchin <small>(iniciador)</small></h4>
+          <svg viewBox="0 0 200 160" class="comp-img">
+            <defs>
+              <linearGradient id="urG" x1="0" x2="1"><stop offset="0" stop-color="#3a3e44"/><stop offset=".5" stop-color="#a7adb4"/><stop offset="1" stop-color="#2a2d31"/></linearGradient>
+              <radialGradient id="urCore"><stop offset="0" stop-color="#ffd27a"/><stop offset=".5" stop-color="#ff7a1a"/><stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient>
+            </defs>
+            <rect x="68" y="22" width="64" height="118" rx="8" fill="url(#urG)"/>
+            <ellipse cx="100" cy="24" rx="32" ry="8" fill="#c3c8ce"/>
+            <rect x="80" y="45" width="40" height="75" rx="4" fill="#1d1f22"/>
+            <circle cx="100" cy="82" r="30" fill="url(#urCore)" class="core-glow"/>
+            <circle cx="100" cy="82" r="9" fill="#ffe2a8"/>
+          </svg>
+          <div class="comp-info">
+            <svg viewBox="0 0 24 24"><path d="M4 8l8-4 8 4v9l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v9"/></svg>
+            <div><b>Polônio + Berílio</b></div>
+          </div>
+          <p>Disparava uma chuva de nêutrons no momento exato da compressão máxima do plutônio.</p>
+        </article>
+
+        <!-- 5. Tamper -->
+        <article class="fm-card" data-card="4">
+          <h4><span>5.</span> O Tamper de urânio-238</h4>
+          <svg viewBox="0 0 200 160" class="comp-img">
+            <defs>
+              <linearGradient id="tpG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1e4e8"/><stop offset=".5" stop-color="#6c7178"/><stop offset="1" stop-color="#25282c"/></linearGradient>
+            </defs>
+            <ellipse cx="100" cy="80" rx="72" ry="66" fill="url(#tpG)"/>
+            <ellipse cx="100" cy="80" rx="72" ry="66" fill="none" stroke="#c9a227" stroke-width="3" stroke-dasharray="60 400" stroke-dashoffset="-40"/>
+            <ellipse cx="104" cy="82" rx="38" ry="36" fill="#141618"/>
+            <ellipse cx="108" cy="84" rx="28" ry="26" fill="#0b0c0d"/>
+          </svg>
+          <div class="comp-info">
+            <svg viewBox="0 0 24 24"><path d="M4 8l8-4 8 4v9l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v9"/></svg>
+            <div><b>Urânio-238</b></div>
+          </div>
+          <p>Refletia nêutrons e ainda sofria fissão rápida, respondendo por boa parte do rendimento final da arma.</p>
+        </article>
+      </div>
+
+      <button class="car-btn next" id="fmNext" aria-label="Próximo">
+        <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <div class="fm-dots" id="fmDots">
+      <button data-step="0" class="active" aria-label="Etapa 1"></button>
+      <button data-step="1" aria-label="Etapa 2"></button>
+      <button data-step="2" aria-label="Etapa 3"></button>
+      <button data-step="3" aria-label="Etapa 4"></button>
+      <button data-step="4" aria-label="Etapa 5"></button>
+    </div>
+
+    <div class="sim-cta">
+      <a href="https://simulacoes-multidisciplinar.vercel.app/bomba/index.html" class="btn-outline yellow" target="_blank" rel="noopener">Ir para simulação →</a>
+    </div>
+  </div>
+
+  <!-- forma da bomba reutilizada (corpo + cauda) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <radialGradient id="bombBody" cx="38%" cy="32%" r="75%">
+        <stop offset="0" stop-color="#e0c048"/>
+        <stop offset=".35" stop-color="#a88a22"/>
+        <stop offset=".7" stop-color="#5a4810"/>
+        <stop offset="1" stop-color="#1c1604"/>
+      </radialGradient>
+      <linearGradient id="bombFin" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#b5982e"/>
+        <stop offset="1" stop-color="#3d310a"/>
+      </linearGradient>
+      <g id="fmBombShape">
+        <polygon points="430,120 610,40 640,40 640,380 610,380 430,300" fill="url(#bombFin)" stroke="#2a2206" stroke-width="3"/>
+        <polygon points="470,135 600,70 600,350 470,285" fill="none" stroke="#7d6716" stroke-width="4"/>
+        <line x1="470" y1="210" x2="640" y2="210" stroke="#2a2206" stroke-width="5"/>
+        <ellipse cx="280" cy="210" rx="250" ry="185" fill="url(#bombBody)"/>
+        <path d="M200 30 Q170 210 200 392" stroke="#1d1704" stroke-width="22" fill="none" opacity=".75"/>
+        <path d="M390 50 Q420 210 390 372" stroke="#1d1704" stroke-width="22" fill="none" opacity=".75"/>
+        <path d="M40 210 H520" stroke="#1d1704" stroke-width="10" opacity=".5"/>
+        <rect x="120" y="70" width="34" height="22" rx="3" fill="#2a2206"/>
+        <rect x="350" y="40" width="34" height="22" rx="3" fill="#2a2206"/>
+        <ellipse cx="180" cy="110" rx="90" ry="40" fill="#fff6c4" opacity=".12" transform="rotate(-25 180 110)"/>
+      </g>
+    </defs>
+  </svg>
+</section>
+
+<!-- ============================ NAGASAKI ============================ -->
+<section class="section nagasaki" id="nagasaki">
+  <div class="container nag-grid">
+    <div class="nag-text reveal">
+      <h2 class="sec-title"><span class="c-yellow">Nagazaki, Japão</span><br>O vale da destruição.</h2>
+      <p>Nagasaki, localizada na ilha de Kyushu, no Japão, possui um relevo montanhoso que divide a cidade em dois vales costeiros. Em 9 de agosto de 1945, a bomba atômica explodiu sobre o vale de Urakami, onde ficavam fábricas e áreas residenciais.</p>
+      <p class="narrow">O formato de bacia do vale intensificou a destruição na região, enquanto as colinas ao redor bloquearam parte da onda de choque e da radiação, protegendo outras áreas da cidade. Assim, o relevo limitou a extensão dos danos, mas a tragédia foi enorme, com estimativas de 50 mil a 100 mil mortos.</p>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <span>Área afetada</span>
+          <strong>3 a 5 <em>km</em> <small>ou</small> 7,7 <em>km<sup>2</sup></em></strong>
+        </div>
+        <div class="stat-box">
+          <span>Mortos</span>
+          <strong><em class="y">50</em><em>mil</em> a <em class="y">100</em><em>mil</em></strong>
+        </div>
+      </div>
+
+      <div class="einstein">
+        <span>Formula de Einstein:</span>
+        <strong>E = m . c<sup>2</sup></strong>
+      </div>
+    </div>
+
+    <div class="nag-map reveal" aria-label="Mapa do sul do Japão com Nagasaki destacada">
+      <img src="img/mapa-nagasaki.svg" alt="Mapa do sul do Japão com Nagasaki destacada">
+      <span class="map-pin" style="left: 7.3%; top: 73.6%"></span>
+      <span class="map-tag" style="left: -9%; top: 81%">N a g a s a k i</span>
+      <span class="map-tag" style="left: 13%; top: 101%">i l h a&nbsp;&nbsp;d e&nbsp;&nbsp;K y u s h u</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="calc-box reveal" id="calculo-bomba">
+      <div class="calc-left">
+        <span class="calc-label">calculo da Energia da Bomba Atômica</span>
+        <div class="formula-big">E = 1kg &nbsp;* 9 x 10<sup>16</sup></div>
+        <span class="calc-small">Sendo:</span>
+        <div class="formula-big">E &nbsp;= &nbsp;86.400.000.000.000.000</div>
+        <span class="calc-label">Contudo a energia termica equivale a 35% da total</span>
+      </div>
+      <div class="calc-right">
+        <span class="calc-small">Energia termica total liberada</span>
+        <div class="formula-big big">3.024.000.000.000.000 J</div>
+        <span class="calc-small">Aproximadamente 840.000.000 kWh</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONVERSÃO ============================ -->
+<section class="section conversao">
+  <div class="container">
+    <div class="divider"></div>
+    <h2 class="center-title">Conversão de Medidas</h2>
+    <div class="conv-grid">
+      <div class="conv-card reveal">
+        <strong><span data-count="840000000">840.000.000</span> <em>Kwh</em></strong>
+        <svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg>
+      </div>
+      <div class="conv-card reveal">
+        <strong>0,0072 <em>Mt</em></strong>
+        <svg viewBox="0 0 24 24"><circle cx="10" cy="14" r="7"/><path d="M14 9l3-3M17 3v2M20 6h-2M19.5 3.5l-1 1"/></svg>
+      </div>
+      <div class="conv-card reveal">
+        <strong>7.200mil <em>Ton</em></strong>
+        <svg viewBox="0 0 24 24"><path d="M6 8h12l2 13H4z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><text x="12" y="18" font-size="6" text-anchor="middle" stroke="none" fill="currentColor">kg</text></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ILHAS RAT ============================ -->
+<section class="rat-hero" id="ilhas-rat">
+  <figure class="rat-photo">
+    <img src="img/predios.webp" alt="Prédios danificados por um terremoto">
+  </figure>
+  <div class="container rat-hero-text reveal">
+    <h2>O INSTANTE EM QUE A ENERGIA<br>INTERNA REDEFINE A<br>SUPERFÍCIE.<br><span class="c-orange">ILHAS RAT, 1965</span></h2>
+  </div>
+</section>
+
+<section class="section rat-intro">
+  <div class="container rat-intro-grid">
+    <div class="reveal">
+      <p>O terremoto das Ilhas Rat ocorreu em <strong>4 de fevereiro de 1965</strong> as <strong>05:01</strong> UTC (<strong>02:01</strong> no horário de Brasília). As ilhas rat são um conjunto de ilhas no extremo sudoeste do Alaska, no arquipelago das ilhas Aleutas, um conjunto de ilhas vulcanicas desabitadas.</p>
+      <p>O terremoto ainda causou um <strong>tsunami de 10,7 metros</strong> na ilha de Shemya. Mesmo com o terremoto e o tsunami, <strong>nenhuma morte foi registrada,</strong> apenas cerca de 10 mil dolares em danos.</p>
+    </div>
+    <div class="magnitude reveal">
+      <span>MAGNITUDE</span>
+      <strong data-count-decimal="8.7">8.7</strong>
+    </div>
+  </div>
+</section>
+
+<section class="section epicentro">
+  <div class="container">
+    <div class="divider orange"></div>
+    <div class="epi-grid">
+      <div class="epi-text reveal">
+        <h2 class="sec-title">O ponto de partida</h2>
+        <h3 class="sec-sub c-orange">Epicentro do sismo</h3>
+        <p>O epicentro do sismo <strong>foi um pouco abaixo da ilha de Anchitka</strong>, perto da Sibéria e no meio do Pacífico. Mesmo assim, o terremoto pode ser sentido na <strong>Califórnia, Havaí, Mexico, Japão e na costa oeste do Peru</strong>, atravessando completamente pelo Pacífico.</p>
+        <p class="legend"><span class="epi-dot"></span> Epicentro</p>
+      </div>
+    </div>
+    <div class="aleutas reveal" aria-label="Mapa do arquipélago das Aleutas com o epicentro">
+      <img src="img/mapa-aleutas.svg" alt="Mapa do arquipélago das Aleutas">
+      <span class="map-tag" style="left: 0; top: 73%">S h e m y a</span>
+      <span class="map-tag" style="left: 7%; top: 84%">I l h a s&nbsp;&nbsp;R a t</span>
+      <span class="map-tag rot" style="left: 49%; top: 82%">A r q u i p é l a g o&nbsp;&nbsp;d a s&nbsp;&nbsp;A l e u t a s</span>
+      <span class="map-tag" style="left: 82%; top: 8%">A l a s k a</span>
+      <span class="map-pin orange" style="left: 12%; top: 102%"></span>
+    </div>
+  </div>
+</section>
+
+<section class="section causa">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="causa-grid">
+      <div class="reveal">
+        <h2 class="sec-title">O que causou o terremoto?</h2>
+        <h3 class="sec-sub c-orange">O que são as placas tectonicas e como geram os terremotos</h3>
+        <p>As ilhas Rat se situam na <strong>zona de subducção entre a placa Norte-Americana e a do Pacífico</strong>, mas o que isto significa? Antes de respondermos, precisamos entender como as placas tectonicas funcionam.</p>
+        <p>As placas tectonicas são grandes blocos de rocha que ficam debaixo da litosfera terrestre, <strong>deslizando pelo magma</strong>. Estas placas <strong>interagem e se chocam</strong>, acontecimentos responsáveis por gerar os <strong>terremotos, grandes cadeias de montanhas, ilhas e vulcões.</strong></p>
+        <p>As placas tectonicas interagem de 3 diferentes maneiras e isso tem impactos diferentes:</p>
+      </div>
+      <div class="seismo reveal" aria-hidden="true">
+        <svg viewBox="0 0 300 160"><polyline id="seismoLine" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+
+    <div class="plates">
+      <article class="plate-card reveal">
+        <svg viewBox="0 0 160 80" class="plate-ico">
+          <path d="M5 60 L60 60 Q80 30 90 20 L100 35 L155 40 L155 70 L5 70 Z"/>
+          <path d="M60 60 Q85 62 110 75"/>
+          <path d="M20 66h20M110 52h30"/>
+        </svg>
+        <h4>Convergente</h4>
+        <p>Duas placas se chocam diretamente e uma sobe sobre a outra.</p>
+        <p>Gera as grandes cadeias de montanhas</p>
+      </article>
+      <article class="plate-card reveal">
+        <svg viewBox="0 0 160 80" class="plate-ico">
+          <path d="M20 22h30M30 16l-10 6 10 6M110 22h30M130 16l10 6-10 6"/>
+          <path d="M5 70 Q40 66 62 45 Q75 70 80 70 Q85 70 98 45 Q120 66 155 70"/>
+        </svg>
+        <h4>Divergente</h4>
+        <p>duas placas se distanciam entre si em um movimento de direção oposta.</p>
+        <p>Gera ilhas e vulcões.</p>
+      </article>
+      <article class="plate-card reveal">
+        <svg viewBox="0 0 160 80" class="plate-ico">
+          <rect x="20" y="6" width="120" height="68"/>
+          <path d="M80 6 L74 24 L86 36 L76 52 L84 74"/>
+          <path d="M50 52V24M44 30l6-6 6 6M110 24v28M104 46l6 6 6-6"/>
+        </svg>
+        <h4>Transformante</h4>
+        <p>Duas placas deslizam lateralmente uma contra a outra.</p>
+        <p>Gera grandes terremotos e falhas.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section richter">
+  <div class="container">
+    <h2 class="sec-title sm">No caso do terremoto das ilhas rat: <span class="c-orange">Movimento convergente</span></h2>
+    <div class="divider"></div>
+
+    <div class="richter-grid">
+      <div class="reveal">
+        <h2 class="sec-title">Escala Richter<br><span class="c-orange">Como ela funciona?</span></h2>
+        <p>A Escala Richter mede a <strong>magnitude de um terremoto</strong> com base nas <strong>ondas sísmicas registradas</strong> por um <strong>sismógrafo.</strong> Este aparelho mede o <strong>movimento máximo do solo</strong> a uma certa distância do <strong>epicentro</strong>, ou seja seu local de início. Esse valor é convertido em um <strong>número decimal entre 0 e 9.</strong></p>
+        <p class="strong-line">O numero resultado entre dois terremotos não demonstra a real diferença entre dois terremotos.</p>
+        <p>A escala richter é <strong>logarítmica</strong>. Neste caso, <strong>cada decimal aumenta o valor 31.6 vezes.</strong> Terremotos de <strong>8.0 e 8.1</strong> parecem proximos, mas na verdade o segundo é <strong>quase 32 vezes mais forte</strong> que o primeiro.</p>
+      </div>
+      <div class="richter-side reveal">
+        <svg viewBox="0 0 220 120" class="seismograph" aria-hidden="true">
+          <g fill="none" stroke="var(--orange)" stroke-width="1.6">
+            <rect x="10" y="98" width="200" height="14"/>
+            <rect x="30" y="70" width="160" height="28"/>
+            <path d="M60 70V20h100v50M80 20V8h60v12"/>
+            <path d="M110 20 V40 l-6 4 12 6 -12 6 12 6 -6 4 V75" class="spring"/>
+            <path d="M40 70V48h12v22M168 70V48h12v22"/>
+          </g>
+        </svg>
+        <div class="richter-formula">
+          I = <span class="frac"><span>2</span><span>3</span></span>Log<span class="frac"><span>E</span><span>E<sub>0</sub></span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2 class="sec-title">Força real do terremoto<br><span class="c-orange">Quanta energia foi liberada pelo<br>terremoto?</span></h2>
+
+    <div class="calc-box orange reveal">
+      <div class="calc-left">
+        <span class="calc-small">Após isolar a energia na formula, chegamos aos seguintes resultados:</span>
+        <div class="formula-big">E = E<sub>0</sub> * 10<sup>1.5 I</sup></div>
+        <span class="calc-small">Sendo:</span>
+        <div class="formula-big md">E<sub>0</sub>= 7 * 10<sup>-3</sup></div>
+        <div class="formula-big md">I = 8.7</div>
+      </div>
+      <div class="calc-right">
+        <span class="calc-small">Energia mecânica total liberada</span>
+        <div class="formula-big big">78.541.291.801,14 kWh</div>
+        <span class="calc-small">Ou 282.748.650.484.104.000 J</span>
+        <span class="calc-small">Ou 67.578549350885 Mt</span>
+      </div>
+    </div>
+
+    <a href="https://simulacoes-multidisciplinar.vercel.app/terremoto/index.html" class="btn-outline orange" target="_blank" rel="noopener">Ir para simulação →</a>
+  </div>
+</section>
+
+<!-- ============================ UNZEN ============================ -->
+<section class="unzen-hero" id="unzen">
+  <div class="volcano-art" aria-hidden="true">
+    <img src="img/vulcao.webp" alt="">
+  </div>
+  <div class="container unzen-hero-text">
+    <span class="eyebrow-w">JAPÃO · ILHA DE KYUSHU · 1792</span>
+    <h2>A FORÇA QUE TRANSFORMA A<br>PAISAGEM.<br>O PODER QUE MUDA A<br>HISTÓRIA.<br>MONTE UNZEN<span class="c-red">.</span></h2>
+    <p>Um desastre marcado pela combinação entre atividade vulcânica, terremoto, deslizamento e tsunami - investigado também pela Matemática</p>
+    <a href="#unzen-fenomenos" class="btn-red">EXPLORAR O FENÔMENO ▾</a>
+  </div>
+</section>
+
+<section class="section unzen-connect" id="unzen-fenomenos">
+  <div class="container uc-grid">
+    <h2 class="uc-title reveal">QUANDO<br>FENÔMENOS<br>SE CONECTAM<span class="c-red">.</span></h2>
+    <div class="reveal">
+      <p>Em 1792, na região do complexo vulcânico do Monte Uzen, no Japão, a atividade vulcânica e um terremoto contribuíram para o colapso de parte da montanha Mayuyama</p>
+      <p>Uma enorme quantidade de rochas e outros materiais deslizou pela encosta e atingiu o mar. O impacto gerou um tsunami que provocou aproximadamente 15 mil mortes, tornando o episódio um dos maiores desastres vulcânicos da história japonesa.</p>
+    </div>
+    <a href="https://simulacoes-multidisciplinar.vercel.app/vulcao/index.html" class="btn-outline red" target="_blank" rel="noopener">Ir para simulação →</a>
+    <p class="quote-red">O desastre evidencia como diferentes fenômenos naturais podem estar relacionados e ampliar seus impactos.</p>
+  </div>
+
+  <div class="container">
+    <div class="chain">
+      <div class="chain-item reveal"><b>01</b><strong>Atividade vulcânica</strong><span>O cenário geológico da região</span></div>
+      <i class="chain-op">+</i>
+      <div class="chain-item reveal"><b>02</b><strong>Terremoto</strong><span>Um fator associado ao desastre</span></div>
+      <i class="chain-op">→</i>
+      <div class="chain-item reveal"><b>03</b><strong>Deslizamento</strong><span>O colapso de parte de Mayuyama</span></div>
+      <i class="chain-op">→</i>
+      <div class="chain-item reveal"><b>04</b><strong>Tsunami</strong><span>O material atingiu o mar</span></div>
+    </div>
+
+    <h2 class="sec-title">Monte Unzen - Japão, 1792.</h2>
+    <p class="lead-narrow">Na ilha de Kyushu, no sul do Japão, o complexo vulcânico Unzen se ergue junto à península de Shimabara. Em 1792, uma sequência de eventos transformou a montanha e atingiu as comunidades ao redor</p>
+
+    <div class="photos">
+      <figure class="photo reveal"><img src="img/unzen-1.webp" alt="Vista aérea do Monte Unzen" data-fallback><figcaption>Vista aérea do Monte Unzen</figcaption></figure>
+      <figure class="photo reveal"><img src="img/unzen-2.png" alt="Estrada com o Monte Unzen ao fundo" data-fallback><figcaption>Monte Unzen visto da estrada</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SIMULAÇÕES (substituem os painéis do Figma) ============================ -->
+<section class="section simulacoes" id="simulacoes">
+  <div class="container">
+    <h2 class="big-caps reveal">ENERGIA EM<br><span class="c-red">MOVIMENTO.</span></h2>
+
+    <!-- ---------- Simulador 1: Energia potencial ---------- -->
+    <div class="sim" id="simPotencial">
+      <header class="sim-header">
+        <div class="sim-eyebrow">Unzen • Japão • 1792</div>
+        <h3>Energia potencial armazenada</h3>
+        <p>Explore como a altura do material influencia a energia potencial gravitacional antes do deslizamento de Mayuyama.</p>
+      </header>
+      <div class="sim-layout">
+        <div class="sim-panel sim-visual" aria-label="Ilustração animada de um vulcão com energia potencial destacada em vermelho">
+          <div class="scene-label">Modelo visual do deslizamento</div>
+          <div class="height-label" id="epHeightLabel">h = 760 m</div>
+          <div class="height-line" id="epHeightLine"></div>
+          <svg class="sim-svg" viewBox="0 0 620 500" role="img" aria-label="Vulcão escuro com uma área vermelha brilhante representando energia potencial armazenada">
+            <defs>
+              <linearGradient id="epMountain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#424954"/><stop offset=".48" stop-color="#242a33"/><stop offset="1" stop-color="#10141b"/></linearGradient>
+              <linearGradient id="epRedrock" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#ff7279"/><stop offset=".35" stop-color="#ff202e"/><stop offset="1" stop-color="#a80013"/></linearGradient>
+              <radialGradient id="epGlow"><stop offset="0" stop-color="#ff202e" stop-opacity=".8"/><stop offset="1" stop-color="#ff202e" stop-opacity="0"/></radialGradient>
+            </defs>
+            <g fill="#626b78" opacity=".18"><circle cx="294" cy="66" r="27"/><circle cx="322" cy="43" r="22"/><circle cx="347" cy="28" r="16"/></g>
+            <ellipse id="epAura" cx="298" cy="205" rx="135" ry="135" fill="url(#epGlow)" class="pulse"/>
+            <path d="M48 432 L116 345 L164 286 L205 251 L248 177 L275 137 L296 145 L316 132 L341 177 L367 225 L408 273 L452 329 L508 432 Z" fill="url(#epMountain)" stroke="#626b78" stroke-width="2"/>
+            <path d="M248 177 L275 137 L296 145 L316 132 L341 177 L321 190 L299 179 L277 196 Z" fill="#080b10" stroke="#727b88" stroke-width="2"/>
+            <path d="M156 310 L191 322 L205 348 M376 250 L354 279 L365 302 M228 228 L213 253" fill="none" stroke="#707986" stroke-width="3" opacity=".5"/>
+            <path id="epStored" class="glow" d="M275 153 L296 160 L316 150 L341 187 L365 231 L388 270 L350 291 L326 260 L305 225 L286 195 Z" fill="url(#epRedrock)" stroke="#ff6670" stroke-width="2"/>
+            <path d="M290 164 L302 199 L324 222 L342 257 L361 278" fill="none" stroke="#ffb2b6" stroke-width="4" opacity=".9" class="lava-flow"/>
+            <path d="M274 203 L292 216 L306 247 L326 270" fill="none" stroke="#ff202e" stroke-width="7" opacity=".9" class="lava-flow"/>
+            <g fill="#ff4a55" class="pulse"><circle cx="307" cy="192" r="4"/><circle cx="330" cy="229" r="3"/><circle cx="351" cy="263" r="4"/><circle cx="291" cy="219" r="3"/></g>
+            <path d="M48 432 Q190 414 305 432 T508 432 L526 453 L38 453 Z" fill="#090c11" stroke="#303744" stroke-width="2"/>
+            <path d="M60 455 H520" stroke="#ff202e" stroke-width="2" opacity=".55"/>
+            <g>
+              <path d="M350 204 L415 169 L472 169" fill="none" stroke="#ff3946" stroke-width="2"/>
+              <circle cx="350" cy="204" r="5" fill="#ff3946"/>
+              <rect x="405" y="139" width="164" height="51" rx="10" fill="#110b10" stroke="#ff202e" stroke-width="1.5"/>
+              <text x="487" y="160" text-anchor="middle" fill="#ff777e" font-size="11" font-weight="700" letter-spacing="1">ENERGIA</text>
+              <text x="487" y="178" text-anchor="middle" fill="#fff" font-size="13" font-weight="800">ARMAZENADA</text>
+            </g>
+            <text x="310" y="480" text-anchor="middle" fill="#8d98a7" font-size="12" letter-spacing="2">MAYUYAMA • UNZEN</text>
+          </svg>
+        </div>
+
+        <aside class="sim-panel sim-side">
+          <div class="tag"><span></span> SIMULAÇÃO INTERATIVA</div>
+          <h4>Altere a altura do material</h4>
+          <p class="explain">A energia potencial gravitacional depende da massa, da gravidade e da altura. Mude a altura para observar como o valor calculado varia.</p>
+          <div class="formula">E<sub>p</sub> = m · g · h<small>Energia potencial = massa × gravidade × altura</small></div>
+          <div class="control">
+            <div class="control-head"><label for="epHeight">Altura do deslizamento</label><strong id="epHeightValue">760 m</strong></div>
+            <input id="epHeight" type="range" min="100" max="1000" step="10" value="760">
+            <div class="range-ends"><span>100 m</span><span>1.000 m</span></div>
+          </div>
+          <div class="result">
+            <div class="label">Energia potencial calculada</div>
+            <div class="number" id="epEnergy">5,069808 × 10¹⁵</div>
+            <div class="unit">joules (J)</div>
+          </div>
+          <div class="control">
+            <div class="control-head"><span>Massa do material</span><strong>6,8 × 10¹¹ kg</strong></div>
+            <div class="control-head last"><span>Gravidade</span><strong>9,81 m/s²</strong></div>
+          </div>
+          <p class="explain" id="epInterp"></p>
+          <div class="buttons">
+            <button class="primary" id="epPlay">Animar energia</button>
+            <button class="secondary" id="epReset">Reiniciar</button>
+          </div>
+          <p class="footnote">Modelo didático: a área vermelha representa visualmente a energia potencial associada à posição elevada do material. Não é uma medição direta da energia do vulcão.</p>
+        </aside>
+      </div>
+    </div>
+
+    <!-- ---------- Simulador 2: Energia cinética ---------- -->
+    <div class="sim" id="simCinetica">
+      <header class="sim-header">
+        <div class="sim-eyebrow">Unzen • Japão • 1792</div>
+        <h3>Energia cinética em movimento</h3>
+        <p>Observe como a velocidade do material influencia a energia cinética durante o deslizamento de Mayuyama.</p>
+      </header>
+      <div class="sim-layout">
+        <div class="sim-panel sim-visual" aria-label="Simulação visual do material deslizando pelo vulcão">
+          <div class="scene-label">Material em movimento</div>
+          <svg class="sim-svg" viewBox="0 0 620 500" role="img" aria-label="Vulcão escuro com material vermelho se movendo pela encosta">
+            <defs>
+              <linearGradient id="ecMountain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#424954"/><stop offset=".48" stop-color="#242a33"/><stop offset="1" stop-color="#10141b"/></linearGradient>
+              <linearGradient id="ecRedrock" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff858b"/><stop offset=".4" stop-color="#ff202e"/><stop offset="1" stop-color="#9c0012"/></linearGradient>
+              <radialGradient id="ecAura"><stop offset="0" stop-color="#ff202e" stop-opacity=".75"/><stop offset="1" stop-color="#ff202e" stop-opacity="0"/></radialGradient>
+            </defs>
+            <ellipse cx="355" cy="300" rx="140" ry="135" fill="url(#ecAura)" class="pulse"/>
+            <path d="M48 432 L116 345 L164 286 L205 251 L248 177 L275 137 L296 145 L316 132 L341 177 L367 225 L408 273 L452 329 L508 432 Z" fill="url(#ecMountain)" stroke="#626b78" stroke-width="2"/>
+            <path d="M248 177 L275 137 L296 145 L316 132 L341 177 L321 190 L299 179 L277 196 Z" fill="#080b10" stroke="#727b88" stroke-width="2"/>
+            <path d="M156 310 L191 322 L205 348 M376 250 L354 279 L365 302 M228 228 L213 253" fill="none" stroke="#707986" stroke-width="3" opacity=".5"/>
+            <path d="M296 166 C314 200 324 220 346 249 S374 287 405 321" fill="none" stroke="#ff202e" stroke-width="24" opacity=".22" class="glow"/>
+            <path d="M296 166 C314 200 324 220 346 249 S374 287 405 321" fill="none" stroke="#ff202e" stroke-width="9" class="glow trail"/>
+            <path d="M290 160 C308 194 319 213 340 242 S370 282 399 315" fill="none" stroke="#ffb4b8" stroke-width="3" class="trail"/>
+            <g id="ecRock" class="glow">
+              <path d="M-18 -11 L-2 -18 L16 -7 L13 10 L-7 16 L-19 3 Z" fill="url(#ecRedrock)" stroke="#ff858b" stroke-width="2"/>
+              <path d="M-7 -7 L5 -10 L11 -2 L1 3 Z" fill="#ffd4d6" opacity=".8"/>
+              <g id="ecSpeedLines" stroke="#ff3946" stroke-linecap="round" class="trail">
+                <path d="M-26 -5 L-59 -5" stroke-width="4"/><path d="M-20 7 L-44 15" stroke-width="3"/><path d="M-22 -14 L-42 -24" stroke-width="2"/>
+              </g>
+            </g>
+            <g>
+              <path d="M405 321 L454 353 L505 353" fill="none" stroke="#ff3946" stroke-width="2"/>
+              <circle cx="405" cy="321" r="5" fill="#ff3946"/>
+              <rect x="442" y="328" width="140" height="49" rx="10" fill="#110b10" stroke="#ff202e" stroke-width="1.5"/>
+              <text x="512" y="348" text-anchor="middle" fill="#ff777e" font-size="10" font-weight="700" letter-spacing="1">ENERGIA</text>
+              <text x="512" y="365" text-anchor="middle" fill="#fff" font-size="12" font-weight="800">CINÉTICA</text>
+            </g>
+            <path d="M48 432 Q190 414 305 432 T508 432 L526 453 L38 453 Z" fill="#090c11" stroke="#303744" stroke-width="2"/>
+            <path d="M60 455 H520" stroke="#ff202e" stroke-width="2" opacity=".55"/>
+            <text x="310" y="480" text-anchor="middle" fill="#8d98a7" font-size="12" letter-spacing="2">MAYUYAMA • UNZEN</text>
+          </svg>
+        </div>
+        <aside class="sim-panel sim-side">
+          <div class="tag"><span></span> SIMULAÇÃO INTERATIVA</div>
+          <h4>Altere a velocidade</h4>
+          <p class="explain">A energia cinética depende da massa e da velocidade. Aumente a velocidade e observe o valor calculado e o movimento do material na encosta.</p>
+          <div class="formula">E<sub>c</sub> = (m · v²) / 2<small>Energia cinética = massa × velocidade ao quadrado ÷ 2</small></div>
+          <div class="control">
+            <div class="control-head"><label for="ecSpeed">Velocidade do material</label><strong id="ecSpeedValue">100 m/s</strong></div>
+            <input id="ecSpeed" type="range" min="0" max="120" step="5" value="100">
+            <div class="range-ends"><span>0 m/s</span><span>120 m/s</span></div>
+          </div>
+          <div class="result">
+            <div class="label">Energia cinética calculada</div>
+            <div class="number" id="ecEnergy">3,4 × 10¹⁵</div>
+            <div class="unit">joules (J)</div>
+          </div>
+          <div class="control">
+            <div class="control-head"><span>Massa do material</span><strong>6,8 × 10¹¹ kg</strong></div>
+            <p class="footnote">Massa usada no cálculo do deslizamento de Mayuyama.</p>
+          </div>
+          <p class="explain" id="ecInterp"></p>
+          <div class="buttons">
+            <button class="primary" id="ecPlay">Iniciar movimento</button>
+            <button class="secondary" id="ecReset">Reiniciar</button>
+          </div>
+          <p class="footnote">Modelo didático: a rocha e os rastros vermelhos representam o movimento. A velocidade de 100 m/s é uma estimativa utilizada no cálculo, não uma medição exata de todo o deslizamento.</p>
+        </aside>
+      </div>
+    </div>
+
+    <!-- ---------- Simulador 3: Energia mecânica ---------- -->
+    <div class="sim" id="simMecanica">
+      <header class="sim-header">
+        <div class="sim-eyebrow">Unzen • Japão • 1792</div>
+        <h3>Energia mecânica total</h3>
+        <p>Acompanhe a energia potencial e a energia cinética do material e veja como elas formam a energia mecânica no modelo do deslizamento de Mayuyama.</p>
+      </header>
+      <div class="sim-layout">
+        <div class="sim-panel sim-visual" aria-label="Vulcão escuro com energia potencial e cinética destacadas em vermelho">
+          <div class="scene-label">Posição + movimento</div>
+          <svg class="sim-svg" viewBox="0 0 620 500" role="img" aria-label="Ilustração de vulcão com região elevada brilhante e material em movimento">
+            <defs>
+              <linearGradient id="emMountain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#424954"/><stop offset=".48" stop-color="#242a33"/><stop offset="1" stop-color="#10141b"/></linearGradient>
+              <linearGradient id="emRedrock" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff858b"/><stop offset=".4" stop-color="#ff202e"/><stop offset="1" stop-color="#9c0012"/></linearGradient>
+              <radialGradient id="emAura"><stop offset="0" stop-color="#ff202e" stop-opacity=".75"/><stop offset="1" stop-color="#ff202e" stop-opacity="0"/></radialGradient>
+            </defs>
+            <ellipse cx="310" cy="238" rx="165" ry="175" fill="url(#emAura)" class="pulse"/>
+            <path d="M48 432 L116 345 L164 286 L205 251 L248 177 L275 137 L296 145 L316 132 L341 177 L367 225 L408 273 L452 329 L508 432 Z" fill="url(#emMountain)" stroke="#626b78" stroke-width="2"/>
+            <path d="M248 177 L275 137 L296 145 L316 132 L341 177 L321 190 L299 179 L277 196 Z" fill="#080b10" stroke="#727b88" stroke-width="2"/>
+            <path id="emStored" d="M275 153 L296 160 L316 150 L341 187 L365 231 L388 270 L350 291 L326 260 L305 225 L286 195 Z" fill="url(#emRedrock)" stroke="#ff6670" stroke-width="2" class="glow pulse"/>
+            <path d="M290 164 L302 199 L324 222 L342 257 L361 278" fill="none" stroke="#ffb2b6" stroke-width="4" class="trail"/>
+            <path d="M296 166 C314 200 324 220 346 249 S374 287 405 321" fill="none" stroke="#ff202e" stroke-width="22" opacity=".22" class="glow"/>
+            <path d="M296 166 C314 200 324 220 346 249 S374 287 405 321" fill="none" stroke="#ff202e" stroke-width="7" class="trail"/>
+            <g id="emRock" class="glow" transform="translate(365 279)"><path d="M-16 -10 L-2 -18 L16 -7 L13 10 L-7 16 L-19 3 Z" fill="url(#emRedrock)" stroke="#ff858b" stroke-width="2"/><path d="M-7 -7 L5 -10 L11 -2 L1 3 Z" fill="#ffd4d6" opacity=".8"/></g>
+            <g><path d="M300 169 L225 135 L118 135" fill="none" stroke="#ff3946" stroke-width="2"/><circle cx="300" cy="169" r="4" fill="#ff3946"/><rect x="38" y="106" width="150" height="48" rx="9" fill="#110b10" stroke="#ff202e"/><text x="113" y="125" text-anchor="middle" fill="#ff777e" font-size="10" font-weight="700">ENERGIA</text><text x="113" y="142" text-anchor="middle" fill="#fff" font-size="12" font-weight="800">POTENCIAL</text></g>
+            <g><path d="M365 279 L423 244 L496 244" fill="none" stroke="#ff3946" stroke-width="2"/><circle cx="365" cy="279" r="4" fill="#ff3946"/><rect x="445" y="216" width="145" height="48" rx="9" fill="#110b10" stroke="#ff202e"/><text x="517" y="235" text-anchor="middle" fill="#ff777e" font-size="10" font-weight="700">ENERGIA</text><text x="517" y="252" text-anchor="middle" fill="#fff" font-size="12" font-weight="800">CINÉTICA</text></g>
+            <path d="M48 432 Q190 414 305 432 T508 432 L526 453 L38 453 Z" fill="#090c11" stroke="#303744" stroke-width="2"/><path d="M60 455 H520" stroke="#ff202e" stroke-width="2" opacity=".55"/>
+            <text x="310" y="480" text-anchor="middle" fill="#8d98a7" font-size="12" letter-spacing="2">MAYUYAMA • UNZEN</text>
+          </svg>
+        </div>
+        <aside class="sim-panel sim-side">
+          <div class="tag"><span></span> SIMULAÇÃO INTERATIVA</div>
+          <h4>Explore as duas energias</h4>
+          <p class="explain">A energia mecânica é a soma da energia potencial com a energia cinética. Altere a altura e a velocidade para observar os valores do modelo.</p>
+          <div class="formula">E<sub>m</sub> = E<sub>p</sub> + E<sub>c</sub><small>Energia mecânica = energia potencial + energia cinética</small></div>
+          <div class="control"><div class="control-head"><label for="emHeight">Altura inicial</label><strong id="emHeightValue">760 m</strong></div><input id="emHeight" type="range" min="100" max="1000" step="10" value="760"><div class="range-ends"><span>100 m</span><span>1.000 m</span></div></div>
+          <div class="control"><div class="control-head"><label for="emSpeed">Velocidade do material</label><strong id="emSpeedValue">100 m/s</strong></div><input id="emSpeed" type="range" min="0" max="120" step="5" value="100"><div class="range-ends"><span>0 m/s</span><span>120 m/s</span></div></div>
+          <div class="result"><div class="label">Energia potencial</div><div class="number" id="emEp">5,069808 × 10¹⁵</div><div class="unit">joules (J)</div></div>
+          <div class="result"><div class="label">Energia cinética</div><div class="number" id="emEc">3,4 × 10¹⁵</div><div class="unit">joules (J)</div></div>
+          <div class="result"><div class="label">Energia mecânica (soma)</div><div class="number" id="emEm">8,469808 × 10¹⁵</div><div class="unit">joules (J)</div></div>
+          <p class="explain" id="emInterp"></p>
+          <div class="buttons"><button class="primary" id="emPlay">Animar deslizamento</button><button class="secondary" id="emReset">Reiniciar</button></div>
+          <p class="footnote">Modelo didático: os valores mudam conforme os controles. A energia mecânica calculada é a soma de Ep e Ec no modelo, não a energia total liberada pelo vulcão.</p>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TRÊS VALORES ============================ -->
+<section class="section tres-valores">
+  <div class="container">
+    <h2 class="big-caps reveal">TRÊS VALORES<br><span class="c-red">UMA ANÁLISE.</span></h2>
+    <p class="muted-lead">O gráfico compara os valores calculados. A energia mecânica apresenta o maior resultado, pois é a soma das energias potencial e cinética.</p>
+    <div class="bars-card reveal" id="barsCard">
+      <div class="bars-axis"><span>0</span><span>2</span><span>4</span><span>6</span><span>8</span><span>9 x 10<sup>15</sup></span></div>
+      <div class="bar-row"><div class="bar-head"><span>Energia potencial</span><b>5,069808 × 10¹⁵</b></div><div class="bar-track"><div class="bar-fill" data-value="5.069808"></div></div></div>
+      <div class="bar-row"><div class="bar-head"><span>Energia cinética</span><b>3,400000 × 10¹⁵</b></div><div class="bar-track"><div class="bar-fill" data-value="3.4"></div></div></div>
+      <div class="bar-row"><div class="bar-head"><span>Energia mecânica</span><b>8,469808 × 10¹⁵</b></div><div class="bar-track"><div class="bar-fill" data-value="8.469808"></div></div></div>
+      <p class="bars-note">Valores expressos em joules, multiplicados por 10<sup>15</sup></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ COMPARAÇÃO ============================ -->
+<section class="section comparacao" id="comparacao">
+  <div class="container">
+    <div class="divider"></div>
+    <h2 class="sec-title reveal">Forças diferentes.<br><span class="grad-text">Uma mesma medida.</span></h2>
+    <p class="muted-lead">Quando tudo se transforma em energia, a escala fica visível.</p>
+
+    <div class="compare-grid">
+      <ul class="event-list">
+        <li style="--c: var(--yellow)"><i></i><div><strong>Bomba Fat Man</strong><small>Nagasaki · 1945</small></div><b data-energy="8,8 × 10¹³ J" data-deaths="50 mil – 100 mil">8,8 × 10¹³ J</b></li>
+        <li style="--c: var(--orange)"><i></i><div><strong>Terremoto das Ilhas Rat</strong><small>Alaska · 1965</small></div><b data-energy="2,83 × 10¹⁷ J" data-deaths="0 mortes">2,83 × 10¹⁷ J</b></li>
+        <li style="--c: var(--red)"><i></i><div><strong>Vulcão Unzen</strong><small>Kyushu · 1792</small></div><b data-energy="8,46 × 10¹⁵ J" data-deaths="≈ 15 mil">8,46 × 10¹⁵ J</b></li>
+      </ul>
+
+      <div class="bubbles-wrap">
+        <div class="toggle" role="group" aria-label="Comparar por">
+          <button class="toggle-switch" id="bubbleToggle" aria-pressed="false" aria-label="Alternar entre energia e mortes"><span></span></button>
+          <div class="toggle-labels"><span class="on" id="lblEnergia">Energia</span><span id="lblMortes">Mortes</span></div>
+        </div>
+        <div class="bubbles" id="bubbles">
+          <div class="bubble" data-key="fatman" style="--c: var(--yellow)"><span class="b-label">Fat Man<br><small>8,8 × 10¹³ J</small></span></div>
+          <div class="bubble" data-key="rat" style="--c: var(--orange)"><span class="b-label">Ilhas Rat<br><small>2,83 × 10¹⁷ J</small></span></div>
+          <div class="bubble" data-key="unzen" style="--c: var(--red)"><span class="b-label">Unzen<br><small>8,46 × 10¹⁵ J</small></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SÃO PAULO ============================ -->
+<section class="section saopaulo">
+  <div class="container">
+    <h2 class="sec-title reveal">Grandes na medida.<br>Grandes na pratica.</h2>
+    <p class="muted-lead">Os numeros são grandes e parecem grandes na percepção humana, mas <strong>como podemos visualizar o quão grande é essa energia na pratica?</strong></p>
+    <p class="muted-lead">Imagine que <strong>toda a energia liberada</strong> possa ser transformada em <strong>energia elétrica.</strong> Neste cenário:</p>
+    <h3 class="sp-question grad-text">Por quanto tempo cada desastre poderia alimentar São Paulo com energia?</h3>
+    <p class="muted-lead small">(Considere que São Paulo gasta <strong>400 milhões</strong> de kWh/dia)</p>
+
+    <div class="sp-grid">
+      <ul class="event-list sp-list" id="spList">
+        <li style="--c: var(--yellow)" data-kwh="840000000"><i></i><div><strong>Bomba Fat Man</strong><small>Nagasaki ·1945</small></div><b></b></li>
+        <li style="--c: var(--orange)" data-kwh="78541291801"><i></i><div><strong>Terremoto das Ilhas Rat</strong><small>Alaska ·1965</small></div><b></b></li>
+        <li style="--c: var(--red)" data-kwh="1408280000"><i></i><div><strong>Vulcão Unzen</strong><small>Kyushu ·1792</small></div><b></b></li>
+      </ul>
+      <div class="sp-chart" id="spChart">
+        <div class="sp-col" style="--c: var(--yellow)"><span>Fat Man</span><div class="sp-bar"></div></div>
+        <div class="sp-col" style="--c: var(--orange)"><span>Terremoto das<br>Ilhas Rat</span><div class="sp-bar"></div></div>
+        <div class="sp-col" style="--c: var(--red)"><span>Vulcão Unzen</span><div class="sp-bar"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MAPA MENTAL ============================ -->
+<section class="section mapa">
+  <div class="container">
+    <h2 class="sec-title reveal">Mapa mental<br><span class="grad-text">conversões de energia.</span></h2>
+    <p class="muted-lead">A energia <strong>também se transforma</strong>. Este mapa mental mostra como:</p>
+
+    <div class="mind-wrap reveal">
+      <img src="img/mapa-mental.png" alt="Mapa mental: a energia total da bomba se divide em radiante (~15%), cinética (~50%) e térmica (~35%); a do terremoto em mecânica (~10%), de fraturamento (~1%) e térmica (~80%); a do vulcão em sonora (~1%), cinética (~5%) e térmica (~90%).">
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <a href="#header" class="logo">
+      <span class="logo-mark"><span></span></span>
+      <span class="logo-text">Alvo</span>
+    </a>
+    <a href="portugues.html" class="btn-next">Próxima <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></a>
+  </div>
+</footer>
+
+<script src="css_js_matematica/script.js"></script>
+</body>
+</html>
