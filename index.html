@@ -548,6 +548,9 @@ footer .low .next-btn:focus-visible{outline:2px solid #f4efee;outline-offset:4px
 
 
 
+/* Remove apenas a faixa vazia entre o header e a imagem do hero. */
+.hero-img{top:64px;height:calc(100% - 64px)}
+
 /* Cabeçalho atualizado conforme o padrão solicitado. */
 .navbar{
   position:sticky;top:0;z-index:50;margin-bottom:-64px;
@@ -638,9 +641,9 @@ footer .low .next-btn:focus-visible{outline:2px solid #f4efee;outline-offset:4px
       <span></span><span></span><span></span>
     </button>
     <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
-      <a href="index.html">História</a>
+      <a href="index.html" class="active">História</a>
       <a href="#nagasaki">Biologia/Química</a>
-      <a href="#unzen" class="active">Geografia/Matemática/Física</a>
+      <a href="#unzen">Geografia/Matemática/Física</a>
       <a href="#comparacao">Português/ Inglês</a>
     </nav>
   </div>
